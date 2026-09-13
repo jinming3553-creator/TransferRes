@@ -1,0 +1,23 @@
+{
+  "name": "TransferRes",
+  "version": "0.6.1-rc1",
+  "purpose": "Windows executable acceptance candidate",
+  "automated_acceptance": [
+    "uv availability",
+    "PyInstaller build",
+    "EXE existence",
+    "packaged EXE self-test",
+    "frozen sample selected-level regression",
+    "feature-count overflow regression",
+    "SHA256 generation",
+    "path containing spaces",
+    "non-ASCII path"
+  ],
+  "manual_acceptance": [
+    "GUI opens",
+    "sample Recommended run",
+    "HTML report opens",
+    "display scaling 100/125/150%"
+  ],
+  "source_self_test_passed": true
+}

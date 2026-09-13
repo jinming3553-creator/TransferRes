@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use TransferRes, please cite the associated manuscript and software release."
+title: "TransferRes"
+version: "1.0.0"
+date-released: "2026-09-13"
+type: software
+authors:
+  - family-names: "Liu"
+    given-names: "Jin-Ming"
+license: MIT
+abstract: >
+  TransferRes estimates transferable perturbational resolution using
+  biological-unit holdout prediction, partial-pooling diagnostics,
+  hierarchy-preserving permutation, identifiability analysis, and
+  data-matched signal detectability calibration.

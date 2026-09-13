@@ -1,0 +1,21 @@
+{
+  "title": "TransferRes: Transferable Perturbational Resolution",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Software for leakage-aware estimation of transferable perturbational resolution across independent biological units.",
+  "creators": [
+    {
+      "name": "Liu, Jin-Ming"
+    }
+  ],
+  "license": "SEE-LICENSE-FILE",
+  "keywords": [
+    "perturbation",
+    "transferability",
+    "biological hierarchy",
+    "held-out prediction",
+    "single-cell",
+    "reproducibility"
+  ],
+  "notes": "Replace repository URL, license identifier if applicable, and add co-authors/contributors before deposition."
+}

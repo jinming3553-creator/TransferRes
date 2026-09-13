@@ -1,0 +1,21 @@
+{
+  "name": "TransferRes GUI",
+  "version": "0.5.0",
+  "target": "Windows point-and-click desktop app",
+  "launchers": [
+    "Launch_TransferRes.bat",
+    "Build_TransferRes_EXE.bat"
+  ],
+  "features": [
+    "sample-data one-click load",
+    "run profiles",
+    "progress reporting",
+    "cooperative cancel",
+    "automatic error logs",
+    "results tab",
+    "PNG plots",
+    "offline HTML report",
+    "standalone EXE build script"
+  ],
+  "statistical_contract_unchanged": true
+}

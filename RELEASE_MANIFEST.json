@@ -1,0 +1,19 @@
+{
+  "software": "TransferRes",
+  "version": "1.0.0",
+  "release_status": "stable source/release-engineering freeze",
+  "statistical_contract_changed_from_accepted_v0.7.3_rc": false,
+  "accepted_rc": "0.7.3-rc1",
+  "accepted_windows_rc_workflow": true,
+  "v1_windows_binary_requires_local_windows_build": true,
+  "expected_windows_artifact": "TransferRes.exe",
+  "release_files": [
+    "README.md",
+    "VERSION.txt",
+    "CHANGELOG.md",
+    "RELEASE_NOTES_v1.0.0.md",
+    "REPRODUCIBILITY.md",
+    "CITATION.cff",
+    "LICENSE"
+  ]
+}
