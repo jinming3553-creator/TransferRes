@@ -1,5 +1,5 @@
 # TransferRes 1.0.0
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22736901.svg)](https://doi.org/10.5281/zenodo.22736901)
 **TransferRes — Transferable Perturbational Resolution**
 
 TransferRes is a desktop analysis tool for estimating the hierarchy level at
@@ -79,5 +79,12 @@ The dedicated audit package is distributed separately as
 
 ## Citation and license
 
-See `CITATION.cff` and `LICENSE`. Repository/DOI fields can be updated after the
-public repository and archival DOI exist.
+TransferRes v1.0.0 is archived on Zenodo:
+
+**Liu, J.-M. (2026). TransferRes: Transferable Perturbational Resolution (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22736901**
+
+Source code, release assets, and documentation are available from the GitHub
+repository: https://github.com/jinming3553-creator/TransferRes
+
+See `CITATION.cff` for machine-readable citation metadata and `LICENSE` for
+licensing information.
