@@ -77,6 +77,14 @@ and is therefore not the v1.0.0 manuscript reproduction target.
 The dedicated audit package is distributed separately as
 `TransferRes_v1_0_0_REAL_DATA_REPRO_AUDIT_v3_1_IMPORT_HOTFIX.zip`.
 
+## Manuscript reproduction
+
+Manuscript-specific reproduction scripts are provided under [`analysis/`](analysis/).
+
+The [`analysis/sciplex/`](analysis/sciplex/) directory contains the frozen analysis workflow used for the sci-Plex results reported in the manuscript, including response-matrix construction, primary transferable-resolution selection, feature-count and drug-bootstrap robustness analyses, and the 300-split out-of-panel perturbation validation.
+
+These manuscript-analysis scripts are provided separately from the frozen TransferRes v1.0.0 software implementation. They reproduce analyses performed with the statistical framework but do not modify the v1.0.0 core estimator or its statistical contract.
+
 ## Citation and license
 
 TransferRes v1.0.0 is archived on Zenodo:
