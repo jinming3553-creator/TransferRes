@@ -1,4 +1,4 @@
-# TransferRes v0.6.0 Release Candidate
+# # TransferRes v1.0.0 Quick Start
 
 ## First-time test
 
