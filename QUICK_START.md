@@ -1,4 +1,4 @@
-# # TransferRes v1.0.0 Quick Start
+# TransferRes v1.0.0 Quick Start
 
 ## First-time test
 
