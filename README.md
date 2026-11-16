@@ -98,3 +98,54 @@ repository: https://github.com/jinming3553-creator/TransferRes
 
 See `CITATION.cff` for machine-readable citation metadata and `LICENSE` for
 licensing information.
+
+## Tested environment and demo validation
+
+TransferRes v1.0.0 was tested on the following configuration:
+
+- Operating system: Windows 11 Home, 64-bit (build 10.0.26200)
+- Python: 3.14.7 (via uv)
+- uv: 0.12.13
+- NumPy: 2.5.5
+- pandas: 3.1.1
+- Numba: 0.68.1
+- Matplotlib: 3.11.2
+
+These versions describe a successfully tested environment, not an exhaustive compatibility matrix.
+
+### Installation and execution
+
+The source distribution can be launched on Windows using:
+
+```powershell
+uv run --with numpy --with pandas --with numba --with matplotlib python TransferRes_GUI.py
+```
+
+For a standalone Windows executable, follow the build instructions in the main README.
+
+The bundled sample-data smoke test can be executed using:
+
+```powershell
+uv run --with numpy --with pandas --with numba --with matplotlib python smoke_test.py
+```
+
+### Demo validation
+
+The smoke test passed with:
+- Selected resolution: `class_name`
+- Number of biological units: 8
+- Measured warm-run duration: approximately 2.02 seconds
+
+The graphical interface successfully completed the Recommended sample-data workflow.
+
+The HTML report was generated successfully, with:
+- Selected resolution: `class_name`
+- Broad-level held-out SSE: 110.539
+- Class-level held-out SSE: 69.3552
+- Raw incremental gain: 37.257%
+
+The GUI demo completed within a few seconds by manual observation; its exact duration was not benchmarked.
+
+### Hardware
+
+The demonstrated smoke test and GUI sample workflow were run on a standard Windows desktop environment without requiring a dedicated GPU. Larger real-world analyses may require additional memory and processing time.
