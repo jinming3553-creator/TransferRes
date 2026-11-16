@@ -129,6 +129,12 @@ The bundled sample-data smoke test can be executed using:
 uv run --with numpy --with pandas --with numba --with matplotlib python smoke_test.py
 ```
 
+### Installation time
+
+On a Windows 11 Home (64-bit) computer with Python 3.14.7 and uv 0.12.13 already available, creating a fresh virtual environment and installing the 14 runtime dependency packages took 1.81 seconds using cached packages.
+
+This is a warm-cache dependency installation measurement. Initial installation on another computer may take longer depending on package download speed, hardware and environment setup. The measurement excludes installation of Python and uv, downloading the source repository, and building a standalone executable.
+
 ### Demo validation
 
 The smoke test passed with:
